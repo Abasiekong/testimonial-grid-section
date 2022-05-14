@@ -12,6 +12,10 @@ module.exports = {
         'White': 'hsl(0, 0%, 100%)',
         'light-gray': 'hsl(0, 0%, 81%)',
         'light-grayish-blue': 'hsl(210, 46%, 95%)'
+      },
+      
+      width: {
+        '260': '20em'
       }
     },
   },
