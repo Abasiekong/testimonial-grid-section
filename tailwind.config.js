@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './src/**/*.{html,js}',
-    './index.html'
-  ],
+  content: ['./src/**/*.{html,js}', './index.html'],
   theme: {
     extend: {
       colors: {
@@ -11,13 +8,26 @@ module.exports = {
         'very-dark-blackish-blue': 'hsl(219, 29%, 14%)',
         'White': 'hsl(0, 0%, 100%)',
         'light-gray': 'hsl(0, 0%, 81%)',
-        'light-grayish-blue': 'hsl(210, 46%, 95%)'
+        'light-grayish-blue': 'hsl(210, 46%, 95%)',
       },
-      
+
       width: {
-        '260': '20em'
-      }
+        '285': '21.923076em',
+      },
+    },
+
+    fontSize: {
+      20: [
+        '20px',
+        {
+          lineHeight: '130%',
+        },
+      ],
+    },
+
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
   },
-  plugins: [],
-}
+};
